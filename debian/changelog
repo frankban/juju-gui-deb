@@ -1,0 +1,5 @@
+juju-gui (2.0.1-2) wily; urgency=low
+
+  * Initial release
+
+ -- Jay Wren <jay.wren@canonical.com>  Wed, 10 Feb 2016 02:42:55 -0500

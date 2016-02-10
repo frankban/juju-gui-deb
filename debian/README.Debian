@@ -1,0 +1,3 @@
+juju-gui uses ancient npm which cannot use download cache. It cannot be built from source offline, thus it canot be built from source by PPA.
+
+This "source" package simply movies a prebuild tarball into place for debian package build.

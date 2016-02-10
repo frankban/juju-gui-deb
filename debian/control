@@ -1,0 +1,15 @@
+Source: juju-gui
+Section: universe/devel
+Priority: optional
+Maintainer: Jay Wren <jay.wren@canonical.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://www.jujucharms.com
+Vcs-Git: git://git@github.com:juju/juju-gui.git
+Vcs-Browser: https://github.com/juju/juju-gui
+
+Package: juju-gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Juju-GUI is a web-based GUI for Juju <https://juju.ubuntu.com/>.
+  Juju-GUI is a web-based GUI for Juju. Juju lets you deploy connected services to the cloud in a convenient, vendor-neutral, and powerful way. The GUI lets you visualize and manage your work more intuitively from a web browser.
